@@ -1,84 +1,224 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{WELSCHER2023103414,
+title = {The Antenna Coverage Location Problem in the context of cattle tracking in the Austrian Alps},
+journal = {International Journal of Applied Earth Observation and Geoinformation},
+volume = {122},
+pages = {103414},
+year = {2023},
+issn = {1569-8432},
+doi = {https://doi.org/10.1016/j.jag.2023.103414},
+url = {https://www.sciencedirect.com/science/article/pii/S1569843223002388},
+author = {Franz Welscher and Rizwan Bulbul and Johannes Scholz and Peter Lederer},
+keywords = {Antenna coverage location problem, Spatial optimization, Viewshed analysis, Cattle mobility, Deterministic, LoRaWAN},
+abstract = {Alpine regions are cultural landscapes with a high level of biodiversity. They are used for multiple purposes, such as tourism, and recreation but are also home to grazing livestock over the summer. The usage of alpine regions by different user groups often results in conflicts of interest — especially between agriculture and tourism. To resolve this conflict real-time monitoring of the grazing livestock can be helpful. The start-up ViehFinder has developed a solution for cattle tracking based on Long Range Wide Area Networks. The objective of the paper is to develop a Maximal Covering Location Problem – i.e. an Antenna Location Covering Model – to optimize the locations of base stations in Alpine regions. This paper defines constraints for the demand and candidate sites that need to be considered in the context of antenna placement in the Austrian alps. In the paper, a spatial processing workflow is presented that uses a GIS-based site selection approach, resampling as a site reduction technique, and viewshed analysis for generating the service areas of the antennas. The authors go on to present an Integer Linear Program (ILP) for solving the Antenna Coverage Location Problem. The spatial optimization methodology and spatial data processing are applied to two test areas in the Austrian Alps. In addition, the paper analyzes the behavior and computational complexity of the algorithm with varying problem instances and evaluates the bottlenecks thoroughly. The results show the boundaries of ILP for spatial optimization. Further, we show the suitability of the proposed solution in the context of cattle tracking in the Austrian alps.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Chishtie2023,
+abstract = {While platial representations are being developed for sedentary entities, a parallel and useful endeavor would be to consider time in so-called “platio-temporal” representations that would also expand notions of mobility in GIScience, that are solely dependent on Euclidean space and time. Besides enhancing such aspects of place and mobility via spatio-temporal, we also include human aspects of these representations via considerations of the sociological notions of mobility via the mobilities paradigm that can systematically introduce representation of both platial information along with mobilities associated with ‘moving places.' We condense these aspects into ‘platial mobility,' a novel conceptual framework, as an integration in GIScience and the mobilities paradigm in sociology, that denotes movement of places in our platio-temporal and sociology-based representations. As illustrative cases for further study using platial mobility as a framework, we explore its benefits and methodological aspects toward developing better understanding for disaster management, disaster risk reduction and pandemics. We then discuss some of the illustrative use cases to clarify the concept of platial mobility and its application prospects in the areas of disaster management, disaster risk reduction and pandemics. These use cases, which include flood events and the ongoing COVID-19 pandemic, have led to displaced and restricted communities having to change practices and places, which would be particularly amenable to the conceptual framework developed in our work.},
+author = {Chishtie, Farrukh and Bulbul, Rizwan and Babukova, Panka and Scholz, Johannes},
+doi = {10.1007/s10109-022-00389-3},
+issn = {14355949},
+journal = {Journal of Geographical Systems},
+keywords = {Place in GIScience,Platial displacements,Platial mobility,Platial mobility for disaster management,Platial modeling,Platio-temporal' mobilities},
+number = {1},
+pages = {77--101},
+title = {{Platial mobility: expanding place and mobility in GIS via platio-temporal representations and the mobilities paradigm}},
+url = {https://doi.org/10.1007/s10109-022-00389-3},
+volume = {25},
+year = {2023}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@InProceedings{robl_et_al:LIPIcs.GIScience.2023.62,
+  author ={R\"{o}bl, David and Bulbul, Rizwan and Scholz, Johannes and M\"{u}ller, Mortimer M. and Vacik, Harald},
+  title ={{An Evaluation of the Impact of Ignition Location Uncertainty on Forest Fire Ignition Prediction Using Bayesian Logistic Regression}},
+  abstract = {This study investigates the impact of location uncertainty on the predictive performance of Bayesian Logistic Regression (BLR) for forest fire ignition prediction in Austria. Historical forest fire ignitions are used to create a dataset for training models with the capability to assess the general forest fire ignition susceptibility. Each recorded fire ignition contains a timestamp, the estimated location of the ignition and a radius defining the area within which the unknown true location of the ignition point is located. As the values of the predictive features are calculated based on the assumed location, and not the unknown true location, the training data is biased due to input uncertainties. This study is set to assess the impact of input data uncertainty on the predictive performance of the model. For this we use a data binning approach that splits the input data into groups based on their location uncertainty and use them later for training multiple BLR models. The predictive performance of the models is then compared based on their accuracy, area under the receiver operating characteristic curve (AUC) scores and brier scores. The study revealed that higher location uncertainty leads to decreased accuracy and AUC score, accompanied by an increase in the brier score, while demonstrating that the BLR model trained on a smaller high-quality dataset outperforms the model trained on the full dataset, despite its smaller size. The study’s contribution is to provide insights into the practical implications of location uncertainty on the quality of forest fire susceptibility predictions, with potential implications for forest risk management and forest fire documentation.},
+  booktitle ={12th International Conference on Geographic Information Science (GIScience 2023)},
+  pages ={62:1--62:7},
+  series ={Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN ={978-3-95977-288-4},
+  ISSN ={1868-8969},
+  year ={2023},
+  volume ={277},
+  editor ={Beecham, Roger and Long, Jed A. and Smith, Dianna and Zhao, Qunshan and Wise, Sarah},
+  publisher ={Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address ={Dagstuhl, Germany},
+  URL ={https://drops.dagstuhl.de/opus/volltexte/2023/18957},
+  URN ={urn:nbn:de:0030-drops-189576},
+  doi ={10.4230/LIPIcs.GIScience.2023.62},
+  annote ={Keywords: Forest Fire Prediction, Ignition Location Uncertainty, Bayesian Logistic Regression, Bayesian Inference, Probabilistic Programming}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@InProceedings{welscher_et_al:LIPIcs.GIScience.2023.82,
+  author ={Welscher, Franz and Majic, Ivan and H\"{u}bl, Franziska and Bulbul, Rizwan and Scholz, Johannes},
+  title ={{Harnessing the Sunlight on Facades - an Approach for Determining Vertical Photovoltaic Potential}},
+  abstract ={The paper deals with the calculation of the photovoltaic potential of vertical structures. Photovoltaic systems are a core technology for producing renewable energy. As roughly 50\% of the population on planet Earth lives in urban environments, the production of renewable energy in urban contexts is of particular interest. As several papers have elaborated on the photovoltaic potential of roofs, this paper focuses on vertical structures. Hence, we present a methodology to extract facades suitable for photovoltaic installation, calculate their southness and percentage of shaded areas. The approach is successfully tested, based on a dataset located in the city of Graz, Styria (Austria). The results show the wall structures of each building, the respective shadow depth, and their score based on a multi-criteria analysis that represents the suitability for the installation of a photovoltaic system.},
+  booktitle ={12th International Conference on Geographic Information Science (GIScience 2023)},
+  pages ={82:1--82:7},
+  series ={Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN ={978-3-95977-288-4},
+  ISSN ={1868-8969},
+  year ={2023},
+  volume ={277},
+  editor ={Beecham, Roger and Long, Jed A. and Smith, Dianna and Zhao, Qunshan and Wise, Sarah},
+  publisher ={Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address ={Dagstuhl, Germany},
+  URL ={https://drops.dagstuhl.de/opus/volltexte/2023/18977},
+  URN ={urn:nbn:de:0030-drops-189777},
+  doi ={10.4230/LIPIcs.GIScience.2023.82},
+  annote ={Keywords: Vertical Photovoltaics, Facades, Southness, Multi-Criteria-Analysis, Shadow}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{10.1007/978-3-031-25752-0_27,
+abstract = {Decision makers in the tourism sector deal with various issues and need high-quality information to support their decisions. We propose a data-centric approach that analyses historical point of interest (POI) check-in data to determine parameters for an Agent Based Model (ABM). ABM simulation is then run multiple times to simulate possible outcomes in terms of the tourist flow. We have tested the proposed approach on the city of Salzburg using check-in data from Salzburg Card users across 29 POIs. These data were used to parameterize the ABM model with the number of people, the number of POIs a person visits per day, and the preference for selecting POIs to visit. The simulation was performed in GAMA ABM platform and the spatial environment was based on buildings and roads from OpenStreetMap (OSM). Simulation for the duration of 1 day has been repeated 50 times to generate POI visiting patterns. The simulation results have been compared to the ground truth data for the same day and they show that the approach can recreate the long-term pattern of POI visits, but has over-estimated several POIs that had lower visitor counts on that specific day.},
+address = {Cham},
+author = {Majic, Ivan and Scholz, Johannes and Bulbul, Rizwan and Wallinger, Stefanie},
+booktitle = {Springer Proceedings in Business and Economics},
+doi = {10.1007/978-3-031-25752-0_27},
+editor = {Ferrer-Rosell, Berta and Massimo, David and Berezina, Katerina},
+isbn = {9783031257513},
+issn = {21987254},
+keywords = {ABM,Geo-simulation,Tourism},
+pages = {255--260},
+publisher = {Springer Nature Switzerland},
+title = {{Tourist Flow Simulation in GAMA Using Historical Data Parameters}},
+url = {https://link.springer.com/chapter/10.1007/978-3-031-25752-0_27},
+year = {2023}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@InProceedings{10.1007/978-3-031-06245-2_6,
+author="Welscher, Franz
+and Bulbul, Rizwan
+and Scholz, Johannes
+and Lederer, Peter",
+editor="Karimipour, Farid
+and Storandt, Sabine",
+title="Optimising Antenna Positioning for Maximum Coverage: The Case Study of Cattle Tracking in Austrian Alps Using Long Range (LoRa) Based Monitoring System",
+booktitle="Web and Wireless Geographical Information Systems",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="61--70",
+url = {https://link.springer.com/chapter/10.1007/978-3-031-06245-2_6},
+abstract="This paper presents an approach to solve the antenna coverage location problem (ACLP) in the context of tracking cattle in the Austrian Alps. In cooperation with ViehFinder a process is determined for optimizing the placement of the antennas using a DEM with a resolution of 1m. The paper identifies several constraints, such as mobile reception, proximity to a street and a maximum slope, that influence the number of candidate positions. Further, the demand nodes are restricted to the alp areas. Of the possible objectives for the ACLP, such as (1) complete coverage, (2) maximum coverage with a budget and (3) backup coverage, this paper focuses on maximizing the coverage in respect to a given budget. The optimization model discussed here uses visibility analyses to determine the viewsheds - i.e. the covered area - of the antennas and Integer Linear Programming (ILP) to solve the locational problem of placing the antennas. It will be applied to two study areas. The first study area is located near Graz in Styria containing about 277.3 million candidate positions and demand points. The second is close to the western border of Carinthia and consists of 47.5 million demand nodes and possible candidate locations. Due to the size of the problem computational problems might result, when using ILP. Therefore the use of genetic algorithms and heuristics is considered as well. Especially NSGA-II that has been suggested as one of the viable solutions for problems of similar nature and complexity. The sheer size of the problem is unprecedented, thus future work will explore the boundaries of the proposed approach.",
+isbn="978-3-031-06245-2"
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@Article{agile-giss-3-55-2022,
+AUTHOR = {Prinz, R. and Bulbul, R. and Scholz, J. and Eder, M. and Steinbauer-Wagner, G.},
+TITLE = {Off-Road Navigation Maps for Robotic Platforms using Convolutional Neural Networks},
+JOURNAL = {AGILE: GIScience Series},
+VOLUME = {3},
+YEAR = {2022},
+PAGES = {55},
+URL = {https://agile-giss.copernicus.org/articles/3/55/2022/},
+abstract ={As part of AMADEE-20, an integrated Mars analog field mission in the Negev Desert in Israel conducted by the Austrian Space Forum, an exploration cascade for the remote sensing of extraterrestrial terrain was implemented. For this purpose, aerial robots were conceptualized, which were used in an iterative process to generate a navigational map for an autonomous ground vehicle. This work presents the process for generating navigation maps using multiple aerial image sources from satellites as well as from low orbiting aerial vehicles. First, Deep Learning methods are used to analyze a high altitude aerial images of a large area, creating a basis map for mission planning and navigation. Second, high resolution unmanned aerial vehicle (UAV) images were recorded on low altitude for a pre-defined area of interest, processed with Deep-Learning and Structure from Motion and used to update the basis map. This approach results in a high accuracy navigation map for autonomous, off-road robot navigation. Experiments during the AMADEE-20 mission in the Israeli Negev Desert validated the proposed methods by sending an autonomous ground vehicle through the environment using the generated map.},
+DOI = {10.5194/agile-giss-3-55-2022}
+}
+
+@Article{isprs-archives-XLII-4-W14-111-2019,
+AUTHOR = {Jabbar, J. A. and Bulbul, Rizwan },
+TITLE = {SEMANTIC ENRICHMENT OF ROUTING ENGINES USING LINKED DATA: A CASE STUDY USING GRAPHHOPPER},
+JOURNAL = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+VOLUME = {XLII-4/W14},
+YEAR = {2019},
+abstract = {Traveling is a basic part of our daily life, whenever a person wants to travel e.g. from home to workplace, the essential question that rises is which route to follow. The choice of a route also varies based on traveler’s interest e.g. visiting hospital on way back to home or traveling on a greener route. This varied route planning may be easy for any person in his local neighborhood, however in a new neighborhood and increasing number of options e.g. possible restaurant options to visit, a guiding system is required that suggests an optimal route according to traveler’s interests i.e. answering semantic queries. Most of the existing routing engines only answer geometric queries e.g. shortest route due to lack of data semantics and adding semantics to a routing graph requires a semantic data source. Geo-semantics can be added through combination of GIS and semantic web. Semantic web is an extension of World Wide Web (WWW) where the content is maintained and structured in a standard way that is understandable by machines; hence providing linked data as a way for semantic enrichment, in this study the semantic enrichment of routing dataset. To use this semantically enriched routing network a routing application needs to be developed that can answer the semantic queries. This research serves as a proof of concept for how linked data can be used for semantic enrichment of routing networks and proposes a prototype routing framework and application designed using open source technologies along with use cases where semantic routing queries are addressed. It also highlights the challenges of this approach and future research perspectives.},
+PAGES = {111--117},
+URL = {https://isprs-archives.copernicus.org/articles/XLII-4-W14/111/2019/},
+DOI = {10.5194/isprs-archives-XLII-4-W14-111-2019}
+}
+
+@inproceedings{8eac3a587f7d4558839571e6f913db69,
+title = "Towards National SDI in Pakistan: The Challenges",
+abstract = "The role of geospatial technologies for sustainable e-governance at all administrative levels is inevitable. However, the availability of quality geospatial data is the biggest impediment in successful utilization of these technologies for better governance and administration in many developing countries. Pakistan being a developing country direly needs to address the issue by developing Spatial data Infrastructure (SDI) or Geographic Information Infrastructure (GII) at all administrative levels to serve the geospatial data needs of the country. The need comes with many challenges and the paper highlights some of those by giving example from two domains of land administration and 3D city modeling.",
+author = "Rizwan Bulbul and Ahsan, {Muhammad Sheraz} and Mirza, {Joham Fatimah}",
+year = "2019",
+month = feb,
+day = "28",
+language = "English",
+booktitle = "Geospatial information for a smarter life and environmental resilience",
+publisher = "Federation of International Surveyors",
+edition = "2019",
+note = "FIG Working Week 2019 ; Conference date: 22-04-2019 Through 26-04-2019",
+url ={https://www.fig.net/resources/proceedings/fig_proceedings/fig2019/papers/ts05c/TS05C_bulbul_ahsan_et_al_9815.pdf},
+}
+
+@article{Navratil2013,
+abstract = {3D city models are getting more important as a field of research and business and received an increasing amount of attention from both the scientific community and the professional field. 3D city models are one of the new tools for sustainable city development. Since development questions occur repeatedly, the used city models should be maintainable, i.e. the system should be kept up-to-date and not be created new for each decision. This is a challenge. Creating a model representing the current status of a city has been addressed in research literature. The major challenge is the vast amount of data to be collected, processed and visualised. However, keeping the resulting model up-to-date has not been discussed yet. Updating requires the introduction of a suitable concept of time in the model. This would then allow representing historic and current status of the city as well as future scenarios. Processes provide the connection between different points in time. Processes also change the appearance of the city and need to be represented in the model for change detection. In this paper, we discuss the challenges and show necessary properties for city models and systems maintaining them to reach a reasonable level of maintainability. Copyright {\textcopyright} 2013 Inderscience Enterprises Ltd.},
+author = {Navratil, Gerhard and Bulbul, Rizwan and Frank, Andrew U.},
+doi = {10.1504/IJSSOC.2013.052910},
+issn = {17562546},
+journal = {International Journal of Sustainable Society},
+keywords = {3D,City model,Data collection,Level of detail,LoD,Maintainability},
+url = {https://www.inderscience.com/info/inarticle.php?artid=52910},
+number = {2},
+pages = {97--113},
+title = {{Maintainable city models for sustainable development}},
+volume = {5},
+year = {2013}
+}
+@inproceedings{Raja2012,
+abstract = {Region selection problems from raster images in Geographic Information Systems (GIS) involve lots of computational complexity for which designing of the optimized algorithms is required. A region with maximum sum of an attribute value is useful in different decision making problems, for which no efficient solution has yet been found. For selecting a region of such interest, there are lots of unique regions in both 4 and 8-Adjacency region rules. In case of 4-Adjacency rule, for selecting a 10-cell region, more than 288 thousand unique regions can be found among one will be a region with maximum sum value. The scenario suggests that the problem falls in the class of NP-Hard decision problems, so the problem is complex in nature as we deal with the computation terms of the algorithm to be designed in polynomial time. This research contains a new dynamic programming approach for the problem, whose focus is on the efficiency for finding approximate solutions. Experiments have suggested that with the data input of images having higher degree of spatial autocorrelation, the algorithm is quite useful and practical in nature, as it was tested with real life data and has extracted maximum value regions with thousands of cells in a sufficient time. {\textcopyright} 2012 IEEE.},
+author = {Raja, Muhammad Waqas and Bulbul, Rizwan},
+booktitle = {Proceedings - 10th International Conference on Frontiers of Information Technology, FIT 2012},
+doi = {10.1109/FIT.2012.73},
+isbn = {9780769549279},
+url = {https://ieeexplore.ieee.org/document/6408115/},
+keywords = {Decision support systems,NP-complete decision problems,Region selection,Spatial autocorrelation},
+pages = {377--381},
+title = {{Formation of a near optimal solution for raster region having min/max cell value}},
+year = {2012}
+}
+@inproceedings{Ghafoor2012,
+abstract = {We propose a novel position-based routing protocol Anchor-based Connectivity Aware Routing (ACAR) for Vehicular Ad-hoc Networks (VANETs), which considers both buses and cars as vehicular nodes running in both clockwise and anti-clockwise directions. ACAR is a hybrid protocol, uses both the greedy forwarding approach and the carry-store-and-forward approach to ensure the connectivity of the routes. Our solution to situations, when the network is sparse and when any (source or intermediate) node left its initial position, makes this protocol better in city scenarios. We only consider Vehicleto- Vehicle (V2V) communication in which both the source and destination nodes are moving vehicles. Finally, we compare our protocol with A-STAR (one of the plausible connectivity aware routing protocol for city environment) and, the simulation results in NS-2 show that the packet delivery ratio of ACAR is better than A-STAR in all cases: either when the network is fully connected or when the network is sparse. {\textcopyright} 2012 IEEE.},
+author = {Ghafoor, Huma and Gohar, N. D. and Bulbul, Rizwan},
+booktitle = {2012 International Conference on Wireless Communications, Networking and Mobile Computing, WiCOM 2012},
+doi = {10.1109/WiCOM.2012.6478431},
+isbn = {9781612846835},
+url = {https://ieeexplore.ieee.org/document/6478431/},
+keywords = {Anchors,Greedy forwarding,Routing,Store-carry-and-forward,V2V,VANET,Vehicle-to-vehicle communications,Vehicular ad-hoc networks},
+title = {{Anchor-based connectivity aware routing in VANETs}},
+year = {2012}
+}
+
+@Inproceedings{
+	20.500.12708_42527,
+	author = {Gerhard Navratil and Rizwan Bulbul and Andrew U. Frank},
+	editor = {Manfred Schrenk and Vasily Popovich and Peter Zeile},
+	title = {Maintainable 3D Models of Cities},
+	year = {2010},
+	booktitle = {Real Corp 2010},
+  abstract ={In the last decade 3D city models received an increasing amount of attention from both, the scientific community and the professional field. One of the requirements for city models is that they should be maintainable, ie, the system should be kept going and not be created for a specific decision and then abolished. What is the effect of such a requirement? Creating a model that represents the current status of a city is only problematic due to the vast amount of data to be collected and processed. Keeping the resulting model up-to-date, however, is more complex. This requires, for example, the introduction of ‘time’as a concept in the model because then it can comprise the history and current status of the city as well as future development scenarios. The processes that lead to changes in the city must thus be represented in the city model to allow the changes. In the paper we discuss these problems and show necessary properties for city models and systems maintaining them to reach a reasonable level of maintainability.},
+  url = {https://archive.corp.at/cdrom2010/papers2010/CORP2010_99.pdf},
+}
+
+
+@inproceedings{Bulbul2010,
+abstract = {Intersection computation is one of the fundamental operations of computational geometry. This paper presents an algorithm for intersection computation between two polygons (convex/nonconvex, with nonintersecting edges, and with or without holes). The approach is based on the decomposed representation of polygons, alternate hierarchical decomposition (AHD), that decomposes the nonconvex polygon into its convex components (convex hulls) arranged hierarchically in a tree data structure called convex hull tree (CHT). The overall approach involves three operations (1) intersection between two convex objects (2) intersection between a convex and a CHT (nonconvex object) and, (3) intersection between two CHTs (two nonconvex objects). This gives for (1) the basic operation of intersection computation between two convex hulls, for (2) the CHT traversal with basic operation in (1) and, for (3) the CHT traversal with operation in (2). Only the basic operation of intersection of two convex hulls is geometric (for which well known algorithms exist) and the other operations are repeated application of this by traversing tree structures. {\textcopyright} Springer-Verlag Berlin Heidelberg 2010.},
+author = {Bulbul, Rizwan and Frank, Andrew U.},
+booktitle = {Lecture Notes in Geoinformation and Cartography},
+doi = {10.1007/978-3-642-12326-9_1},
+isbn = {9783642123252},
+issn = {18632351},
+url = {https://link.springer.com/chapter/10.1007/978-3-642-12326-9_1},
+pages = {1--23},
+title = {{Intersection of nonconvex polygons using the alternate hierarchical decomposition}},
+year = {2010}
+}
+@inproceedings{Bulbul2009,
+abstract = {Robust convex decomposition, RCD, of polytopes is the convex decomposition of nonconvex polytopes using algorithms whose implementation is based on arbitrary precision arithmetic. Decomposing nonconvex polytopes using RCD can make the data representation model consistent enabling generalization with level of detail. Our approach, alternate hierarchical decomposition, AHD, for the decomposition of nonconvex polytopes with arbitrary genus, is a recursive approach whose implementation is robust, efficient and scalable to any dimension. Our approach decomposes the given nonconvex polytope with arbitrary genus into a set of component convex hulls, which are represented hierarchically in a tree structure, convex hull tree, CHT.},
+author = {Bulbul, Rizwan and Frank, Andrew U.},
+booktitle = {2009 17th International Conference on Geoinformatics, Geoinformatics 2009},
+doi = {10.1109/GEOINFORMATICS.2009.5293499},
+isbn = {9781424445639},
+keywords = {Convex decomposition,Convex hull tree,Hierarchial,Polygon},
+title = {{AHD: The alternate hierarchical decomposition of nonconvex polytopes (Generalization of a convex polytope based spatial data model)}},
+url = {https://ieeexplore.ieee.org/document/5293499/},
+year = {2009}
+}
+@inproceedings{bulbul2009simplex,
+  title={A simplex based dimension independent approach for convex decomposition of nonconvex polytopes},
+  author={Bulbul, Rizwan and Karimipour, Farid and Frank, Andrew U},
+  booktitle={10th lnternational Conference on GeoComputation (GeoComputation 2009). UNSW, Sydney, Australia},
+  year={2009},
+  url = {http://www.geocomputation.org/2009/PDF/Bulbul_et_al.pdf},
 }
