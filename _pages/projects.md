@@ -28,7 +28,6 @@ nav_order: 3
                 <strong>Project No:</strong> FO999887513 <br>
                 <strong>Duration:</strong> 2021-2024 <br>
                 <strong>Budget:</strong> 728k EUR (overall), 173k EUR (TU Graz)<br>
-                
                 <strong>Role:</strong> Project writeup, Project key scientist 
               </p>
               <a href="https://project-dts.eu/" class="btn btn-primary" target="_blank">Learn More</a>
