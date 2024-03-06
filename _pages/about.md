@@ -29,10 +29,10 @@ My research interests span both theoratical and practical dimensions of GIScienc
 :book: Geospatial  Knowledge Graphs <br>
 :book: Geospatial  Optimization <br>
 
-Since 2018, I have been calling the picturesque city of Graz my home, where I reside with my cherished family. During my leisure, I love doing sports 🏓 Table Tennis, 🏸 Badminton, and 🎾 Tennis. My family and I share a mutual love for travel, indulging in sightseeing, walks, and cycling escapades. I proficiently speak English, [Urdu](https://en.wikipedia.org/wiki/Urdu) and [Shina](https://en.wikipedia.org/wiki/Shina_language) languages. German! Mein Deutsch is derzeit nicht so gut, aber ich lerne gerade Deutsch und hoffe, dass es bald besser wird :smile:
+Since 2018, I have been calling the picturesque city of Graz my home, where I reside with my cherished family. During my leisure, I love doing sports 🏓 Table Tennis, 🏸 Badminton, and 🎾 Tennis. My family and I share a mutual love for travel, indulging in sightseeing, walks, and cycling escapades. I proficiently speak English, [Urdu](https://en.wikipedia.org/wiki/Urdu) and [Shina](https://en.wikipedia.org/wiki/Shina_language) languages. German! Mein Deutsch is derzeit nicht so gut, aber ich lerne gerade Deutsch und hoffe, dass es bald besser wird :smile:.
 <!-- I am living in the lovely city of Graz since 2018 with my family.  In my spare time I love doing sports (:faTableTennisPaddleBall:, :badminton:, :soccer:) and spending time with my family. We love traveling, site seeing, walking and cycling together. I proficiently speack English, Urdu and Shina languages. German! Mein Deutsch is derzeit nicht so gut, aber ich lerne gerade Deutsch und hoffe, dass es bald besser wird :smile:. -->
 
-Please feel free me to [contact me](/al-folio/contact/), if you are interested in research collaboration or supervision opportunities.
+Please feel free me to [contact me](/contact/), if you are interested in research collaboration or supervision opportunities.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

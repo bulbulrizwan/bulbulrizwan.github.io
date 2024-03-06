@@ -6,6 +6,23 @@ description:  I am part of following research projects. The highlighted projects
 nav: true
 nav_order: 3
 ---
+{% assign publications = site.scholar.bibliography %}
+
+{% assign project_publicatios = {
+  "dts": ["WELSCHER2023103414", "Chishtie2023"],
+  "geocrow": ["key3", "key4"],
+  "ignite": ["key5", "key6"],
+  "abm4et": ["key7", "key8"],
+  "cagis": ["key9", "key10"]
+} %}
+<!-- 
+{% assign project_publications = {
+  "dts": ["WELSCHER2023103414", "Chishtie2023"],
+  "geocrow": ["key3", "key4"],
+  "ignite": ["key5", "key6"],
+  "abm4et": ["key7", "key8"],
+  "cagis": ["key9", "key10"]
+} %} -->
 
 ## Ongoing Projects
 
@@ -28,11 +45,31 @@ nav_order: 3
                 <strong>Project No:</strong> FO999887513 <br>
                 <strong>Duration:</strong> 2021-2024 <br>
                 <strong>Budget:</strong> 728k EUR (overall), 173k EUR (TU Graz)<br>
-                <strong>Role:</strong> Project writeup, Project key scientist 
-              </p>
-              <a href="https://project-dts.eu/" class="btn btn-primary" target="_blank">Learn More</a>
+                <strong>Role:</strong> Project writeup, Project key scientist<br> 
+                <strong>Skills:</strong>
+                <div class="row">
+                  <div class="col">
+                    <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Mobility analysis</div>
+                    <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Tourist flow simulation modeling</div>
+                    <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Prediction of next PoI</div>
+                    <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Combining ABM and AI</div>
+                  </div>
+                </div>
             </div>
+              </p>
+              <!-- Debugging output -->
+              <!-- <p>Publications: {{ publications | jsonify }}</p>
+              <p>Project : {{ project_publications| jsonify }}</p> -->
+              <!-- Related Publications -->
+              <!-- <p><strong>Related Publications:</strong></p>
+              <ul>
+                {% for publication_key in project_publications.dts %}
+                  {% assign publication = publications | where: "key", publication_key | first %}
+                  <li><a href="{{ publication.url }}">{{ publication.title }}</a></li>
+                {% endfor %}
+              </ul> -->
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -57,9 +94,18 @@ nav_order: 3
                 <strong>Budget:</strong> 610k EUR <br>
                 <strong>Role:</strong> Project writeup, Project key scientist 
               </p>
-              <a href="https://www.geocrow-project.info/" class="btn btn-primary" target="_blank">Learn More</a>
+              <p><strong>Skills:</strong></p>
+              <div class="row">
+                <div class="col">
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">NLP</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Geoparsing</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Mordecai</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Geoparsepy</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Knowldge graphs</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Semantic enrichment</div>
+                </div>
+              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -83,7 +129,17 @@ nav_order: 3
                 <strong>Budget:</strong> 379k EUR (overall), 63k EUR (TU Graz) <br>
                 <strong>Role:</strong> Project writeup, Project key scientist 
               </p>
-              <a href="https://geoinfo-tugraz.github.io/projects/IGNITE/" class="btn btn-primary" target="_blank">Learn More</a>
+              <p><strong>Skills:</strong></p>
+              <div class="row">
+                <div class="col">
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Causal machine learning</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Uncertainity modeling</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Explainaiable AI</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Baysian ML</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">PyMC3</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Causal Inference</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +166,17 @@ nav_order: 3
                 <strong>Budget:</strong> 489k EUR <br>
                 <strong>Role:</strong> Project writeup, Project key scientist 
               </p>
-              <a href="https://geoinfo-tugraz.github.io/projects/ABM4EnergyTransition/" class="btn btn-primary" target="_blank">Learn More</a>
+              <p><strong>Skills:</strong></p>
+              <div class="row">
+                <div class="col">
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">ABM</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Energy transition</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Spatial analysis</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Decision support</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Public policy</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Energy systems</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -137,13 +203,23 @@ nav_order: 3
                 <strong>Budget:</strong> $9,848 <br>
                 <strong>Role:</strong> Project writeup, Project Co-PI
               </p>
-              <a href="https://geoinfo-tugraz.github.io/projects/historical_regions/" class="btn btn-primary" taget = "_blank">Learn More</a>
+              <p><strong>Skills:</strong></p>
+              <div class="row">
+                <div class="col">
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Uncertain locations</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Boundaries of imprecise regions </div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Historical gazetteer</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Kernel Density Estimation (KDE)</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Quantification and visualization of uncertainity</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>  
+</div>
 </div>
 
 ## Completed Projects
@@ -167,7 +243,15 @@ nav_order: 3
                 <strong>Duration:</strong> 2022-2023 <br>
                 <strong>Role:</strong> Project writeup, Project Partner 
               </p>
-              <a href="https://www.fh-joanneum.at/projekt/pv4eag/" class="btn btn-primary" target="_blank">Learn More</a>
+              <p><strong>Skills:</strong></p>
+              <div class="row">
+                <div class="col">
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Vertical PV</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">Extracting building facades </div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">MCDA</div>
+                  <div class="rounded-pill bg-primary text-white d-inline-block p-2 mb-2">GeoAI for PV potential estimation</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
